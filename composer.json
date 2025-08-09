@@ -1,0 +1,6 @@
+{
+    "require": {
+        "hugsbrugs/php-ftp": "^1.0",
+        "nicolab/php-ftp-client": "^1.4"
+    }
+}

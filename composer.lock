@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "62add9e2d5847e3e12e3396895844acf",
+    "packages": [
+        {
+            "name": "hugsbrugs/php-ftp",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hugsbrugs/php-ftp.git",
+                "reference": "8a462fc5f7e98f42a15edcb3452dd02a6e9b683a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hugsbrugs/php-ftp/zipball/8a462fc5f7e98f42a15edcb3452dd02a6e9b683a",
+                "reference": "8a462fc5f7e98f42a15edcb3452dd02a6e9b683a",
+                "shasum": ""
+            },
+            "require": {
+                "hugsbrugs/php-string": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hug\\": "src/Hug/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Hugo Maugey",
+                    "email": "hugo@maugey.fr",
+                    "homepage": "https://hugo.maugey.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP FTP Utilities",
+            "time": "2017-03-20T22:30:46+00:00"
+        },
+        {
+            "name": "hugsbrugs/php-string",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hugsbrugs/php-string.git",
+                "reference": "df8316987b212934bb287f29cb01d59a6e5c6ed0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hugsbrugs/php-string/zipball/df8316987b212934bb287f29cb01d59a6e5c6ed0",
+                "reference": "df8316987b212934bb287f29cb01d59a6e5c6ed0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hug\\": "src/Hug/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Hugo Maugey",
+                    "email": "hugo@maugey.fr",
+                    "homepage": "https://hugo.maugey.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP String Utilities",
+            "time": "2017-03-15T21:07:58+00:00"
+        },
+        {
+            "name": "nicolab/php-ftp-client",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nicolab/php-ftp-client.git",
+                "reference": "0e0c7666bdc3fb9fc9e63b065c84979588101708"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nicolab/php-ftp-client/zipball/0e0c7666bdc3fb9fc9e63b065c84979588101708",
+                "reference": "0e0c7666bdc3fb9fc9e63b065c84979588101708",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "FtpClient": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Tallefourtane",
+                    "email": "dev@nicolab.net",
+                    "homepage": "http://nicolab.net"
+                }
+            ],
+            "description": "A flexible FTP and SSL-FTP client for PHP. This lib provides helpers easy to use to manage the remote files.",
+            "homepage": "https://github.com/Nicolab/php-ftp-client",
+            "keywords": [
+                "file",
+                "ftp",
+                "helper",
+                "lib",
+                "server",
+                "sftp",
+                "ssl",
+                "ssl-ftp"
+            ],
+            "time": "2017-01-20T06:44:54+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
